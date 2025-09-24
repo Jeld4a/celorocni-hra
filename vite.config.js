@@ -2,6 +2,6 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
 export default defineConfig({
+  base: '/celorocni-hra/',
   plugins: [react()],
-  base: '/celorocni-hra/' // důležité pro GitHub Pages
-})
+});
