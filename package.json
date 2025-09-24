@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "homepage": "https://Jeld4a.github.io/celorocni-hra",
+  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -22,3 +23,4 @@
     "vite": "5.0.0"
   }
 }
+
