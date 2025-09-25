@@ -5,11 +5,8 @@
   "homepage": "https://Jeld4a.github.io/celorocni-hra",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist -r https://x-access-token:${GITHUB_TOKEN}@github.com/Jeld4a/celorocni-hra.git"
   },
   "dependencies": {
     "firebase": "^9.23.0",
@@ -23,4 +20,5 @@
     "vite": "5.0.0"
   }
 }
+
 
