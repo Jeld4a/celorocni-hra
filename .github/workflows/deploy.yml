@@ -23,6 +23,11 @@ jobs:
       - name: Build project
         run: npm run build
 
+      - name: Configure Git
+        run: |
+          git config --global user.email "jahoodka6@seznam.cz"
+          git config --global user.name "Jelda Cmelda"
+
       - name: Deploy to GitHub Pages
         run: npm run deploy
         env:
